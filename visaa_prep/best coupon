@@ -1,0 +1,7 @@
+x = int(input())
+y = x-int(x*(10/100))
+z = x - 100
+if y < z:
+    print(y)
+else:
+    print(z)
